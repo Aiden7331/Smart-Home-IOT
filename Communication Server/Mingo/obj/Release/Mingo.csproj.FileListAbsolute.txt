@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\Mingo.exe.config
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\Mingo.exe
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\Mingo.pdb
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\MySql.Data.dll
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\MySql.Web.dll
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\MySql.Data.xml
+C:\Users\user\source\repos\Mingo\Mingo\bin\Release\MySql.Web.xml
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.Form1.resources
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.Properties.Resources.resources
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.exe
+C:\Users\user\source\repos\Mingo\Mingo\obj\Release\Mingo.pdb

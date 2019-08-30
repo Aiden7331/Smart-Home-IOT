@@ -1,0 +1,29 @@
+[2017-09-15 01:52:33] [info]  [ 5244] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-09-15 01:52:33] [info]  [ 5244] Service Tomcat9 name Apache Tomcat 9.0 Tomcat9
+[2017-09-15 01:52:33] [info]  [ 5244] Service 'Tomcat9' installed
+[2017-09-15 01:52:33] [info]  [ 5244] Commons Daemon procrun finished
+[2017-09-15 01:53:02] [info]  [ 6624] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-09-15 01:53:02] [info]  [ 6624] Running 'Tomcat9' Service...
+[2017-09-15 01:53:02] [info]  [ 5488] Starting service...
+[2017-09-15 01:53:03] [info]  [ 5488] Service started in 1243 ms.
+[2017-09-15 02:05:19] [info]  [ 4260] Stopping service...
+[2017-09-15 02:05:20] [info]  [ 4260] Service stop thread completed.
+[2017-09-15 02:05:21] [info]  [ 6624] Run service finished.
+[2017-09-15 02:05:21] [info]  [ 6624] Commons Daemon procrun finished
+[2017-09-15 02:05:21] [info]  [ 3068] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-09-15 02:05:21] [info]  [ 3068] Running 'Tomcat9' Service...
+[2017-09-15 02:05:21] [info]  [ 6164] Starting service...
+[2017-09-15 02:05:22] [info]  [ 6164] Service started in 1306 ms.
+[2017-09-15 02:09:36] [info]  [ 7064] Stopping service...
+[2017-09-15 02:09:37] [info]  [ 7064] Service stop thread completed.
+[2017-09-15 02:09:37] [info]  [ 3068] Run service finished.
+[2017-09-15 02:09:37] [info]  [ 3068] Commons Daemon procrun finished
+[2017-09-15 02:14:58] [info]  [ 4904] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-09-15 02:14:58] [info]  [ 4904] Running 'Tomcat9' Service...
+[2017-09-15 02:14:58] [info]  [ 3772] Starting service...
+[2017-09-15 02:14:59] [info]  [ 3772] Service started in 1271 ms.
+[2017-09-15 02:15:37] [info]  [ 5860] Console SHUTDOWN event signaled
+[2017-09-15 02:15:37] [info]  [ 5860] Stopping service...
+[2017-09-15 02:15:38] [info]  [ 5860] Service stop thread completed.
+[2017-09-15 02:15:39] [info]  [ 4904] Run service finished.
+[2017-09-15 02:15:39] [info]  [ 4904] Commons Daemon procrun finished

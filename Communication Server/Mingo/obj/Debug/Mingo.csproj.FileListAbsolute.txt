@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\Mingo.exe.config
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\Mingo.exe
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\Mingo.pdb
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.Form1.resources
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.Properties.Resources.resources
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.exe
+C:\Users\user\source\repos\Mingo\Mingo\obj\Debug\Mingo.pdb
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\MySql.Data.dll
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\MySql.Web.dll
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\MySql.Data.xml
+C:\Users\user\source\repos\Mingo\Mingo\bin\Debug\MySql.Web.xml

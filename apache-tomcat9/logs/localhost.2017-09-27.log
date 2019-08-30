@@ -1,0 +1,998 @@
+27-Sep-2017 22:06:21.851 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Sep-2017 22:06:21.851 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Sep-2017 22:07:31.847 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Sep-2017 22:07:31.847 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Sep-2017 22:07:35.264 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Sep-2017 22:07:35.265 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Sep-2017 22:09:03.725 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Sep-2017 22:09:03.725 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Sep-2017 22:09:07.238 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Sep-2017 22:09:07.238 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Sep-2017 22:12:36.583 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Sep-2017 22:12:36.583 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Sep-2017 22:12:40.595 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Sep-2017 22:12:40.595 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Sep-2017 22:15:06.160 심각 [http-nio-8099-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:15:08.226 심각 [http-nio-8099-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.contents.notice_jsp] with root cause
+ java.lang.ClassNotFoundException: org.apache.jsp.contents.notice_jsp
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:128)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:59)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:128)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:381)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:15:09.877 심각 [http-nio-8099-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:18:57.844 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Sep-2017 22:18:57.844 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Sep-2017 22:21:39.072 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Sep-2017 22:21:39.073 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Sep-2017 22:24:58.147 심각 [http-nio-8099-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:25:07.001 심각 [http-nio-8099-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:26:18.881 심각 [http-nio-8099-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:31:57.281 심각 [http-nio-8099-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:32:41.739 심각 [http-nio-8099-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:34:07.007 심각 [http-nio-8099-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:34:29.791 심각 [http-nio-8099-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+An error occurred at line: [59] in the jsp file: [/contents/notice.jsp]
+r cannot be resolved or is not a field
+56: ResultSet tableP=pstmt.executeQuery();
+57: int counter=0,endcounter=15;
+58: String LetterList=null,LHead=null,LWritter=null,LDate=null;
+59: tableP.r
+60: while(tableP.next()&&counter<endcounter){
+61: 	counter++;
+62: 	LetterList=tableP.getString("LetterList");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:498)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:796)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1374)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+27-Sep-2017 22:37:26.505 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Sep-2017 22:37:26.505 정보 [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

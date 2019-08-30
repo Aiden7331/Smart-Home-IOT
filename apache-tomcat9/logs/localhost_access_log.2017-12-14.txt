@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:23:57 +0900] "GET /SmartHome/html/login.html HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:23:57 +0900] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:02 +0900] "GET /SmartHome/html/login2.html HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:10 +0900] "GET /html/login2.html HTTP/1.1" 200 2342
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:12 +0900] "GET /resource/login/login.jpg HTTP/1.1" 200 44422
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "POST /proc/loginproc.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /main.jsp HTTP/1.1" 200 6015
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /css/layout_basic.css HTTP/1.1" 200 666
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /css/bootstrap.min.css HTTP/1.1" 200 117150
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /resource/nav/navbar-logo.jpg HTTP/1.1" 200 108004
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /sideBar/navArduino.jsp HTTP/1.1" 500 2943
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:14:24:16 +0900] "GET /mainContext.jsp HTTP/1.1" 500 2933

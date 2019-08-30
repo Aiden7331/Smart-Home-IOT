@@ -1,0 +1,44 @@
+14-Dec-2017 14:23:48.947 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M26
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 20:29:05 UTC
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_144
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files (x86)\apache\apache-tomcat9
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files (x86)\apache\apache-tomcat9
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files (x86)\apache\apache-tomcat9
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files (x86)\apache\apache-tomcat9
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files (x86)\apache\apache-tomcat9\temp
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files (x86)\apache\apache-tomcat9\conf\logging.properties
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14-Dec-2017 14:23:48.962 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Dec-2017 14:23:49.540 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+14-Dec-2017 14:23:49.696 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8099"]
+14-Dec-2017 14:23:49.880 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2017 14:23:49.883 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2017 14:23:49.885 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Dec-2017 14:23:49.885 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1324 ms
+14-Dec-2017 14:23:49.907 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Dec-2017 14:23:49.907 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M26
+14-Dec-2017 14:23:49.922 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\docs]
+14-Dec-2017 14:23:50.266 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\docs] has finished in [344] ms
+14-Dec-2017 14:23:50.266 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\examples]
+14-Dec-2017 14:23:50.624 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\examples] has finished in [358] ms
+14-Dec-2017 14:23:50.624 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\host-manager]
+14-Dec-2017 14:23:50.671 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\host-manager] has finished in [47] ms
+14-Dec-2017 14:23:50.671 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\manager]
+14-Dec-2017 14:23:50.702 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\manager] has finished in [31] ms
+14-Dec-2017 14:23:50.702 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\ROOT]
+14-Dec-2017 14:23:50.749 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Dec-2017 14:23:50.765 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\apache\apache-tomcat9\webapps\ROOT] has finished in [63] ms
+14-Dec-2017 14:23:50.765 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8099"]
+14-Dec-2017 14:23:50.780 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Dec-2017 14:23:50.780 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 900 ms
